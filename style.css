@@ -78,6 +78,22 @@
     align-items: center;
     gap: 40px;
     font-size: 20px;
+    position: relative;
+}
+.icon-box::before {
+  content: "2";
+  width: 18px;
+  height: 18px;
+  background: #F7941D;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 132px;
+  top: -6px;
+  color: #FFFFFF;
 }
 .icon-box i{
     transition: .5s;
@@ -127,7 +143,57 @@
   }
   .categorics {
     background: #F7941D;
+    position: relative;
+    width: 250px;
   }
+  
+.categorics-menu {
+  position: absolute;
+  background: #FFFFFF;
+  width: 100%;
+  margin-top: 1px;
+}
+.categorics-menu li {
+  border-bottom: 1px solid #F7F7F7;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.categorics-menu li a:hover{
+  color: #F7941D;
+}
+.categorics-menu li:hover i{
+  color: #F7941D;
+}
+.categorics-menu li  a {
+  font-size: 14px;
+  color: #424646;
+  font-weight: 400;
+  text-decoration: none;
+  transition: .5s;
+  width: 100%;
+  padding: 17px;
+  text-transform: capitalize;
+}
+.categorics-menu li i {
+  color: #424646;
+  font-size: 12px;
+  margin-right: 15px;
+}
+.more-menu {
+  top: -2px;
+  left: 99%;
+  border-left: 3px solid #F7941D;
+  opacity: 0;
+  visibility: hidden;
+  transition: .5s;
+}
+.new-arrivals-more-menu:hover .more-menu {
+  opacity: 1;
+  visibility: visible;
+}
   .nav-main-menu {
     display: flex;
     justify-content: space-around;
@@ -138,7 +204,7 @@
   }
   .nav-main-menu li a {
     text-decoration: none;
-    padding: 23px 24px;
+    padding: 23px 24px 22px 24px;
     text-transform: capitalize;
     font-size: 15px;
     font-weight: 500;
@@ -158,6 +224,48 @@
   .active {
     background: #F7941D;
   }
+  .new-arrivals-more-menu {
+    position: relative;
+  }
+
+/* ------------best selling product box style here------------- */
+
+  .more-menu2 {
+    display: flex;
+    width: 800px;
+    justify-content: start;
+    align-items: center;
+  }
+
+.best-selling-product-box {
+  padding: 20px;
+  width: 245px;
+}
+  .best-selling-product-box a {
+    color: #424646;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .shop-kids-btn {
+    padding: 9px 19px;
+    margin: 20px 0px;
+    border: none;
+    background: #EF8F1C;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 5px;
+    transition: .5s;
+  }
+  .shop-kids-btn:hover{
+    background: #333333;
+  }
+  .best-selling-product-box a {
+    margin-left: -17px;
+  }
+  .more-menu2 img {
+    padding-bottom: 10px;
+  }
+
   /* ---------------dropdown menu style here----------- */
 
   .nav-main-menu li:hover .dropdown-menu{
@@ -225,3 +333,50 @@
     right: 56px;
     z-index: 1;
   }
+
+  /* ----------------banner section style start here------------- */
+
+  
+.banner-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 130px 0px;
+  background: url(image/slider-image2.jpg);
+  background-position: center;
+}
+.banner-section-wrapper {
+  width: 590px;
+}
+.banner-section-wrapper h3 {
+  font-size: 20px;
+  color: #333333;
+  font-weight: 700;
+}
+.banner-section-wrapper h1 {
+  color: #F7941D;
+  font-size: 47px;
+  padding: 20px 0px;
+  font-weight: 700;
+}
+.banner-section-wrapper p {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  width: 300px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.shop-now-btn {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  background: #333333;
+  border: none;
+  transition: .5s;
+}
+.shop-now-btn:hover{
+  background: #F7941D;
+}
