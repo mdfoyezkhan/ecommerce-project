@@ -264,6 +264,16 @@
   }
   .more-menu2 img {
     padding-bottom: 10px;
+    transition: .5s;
+  }
+  .best-product-img{
+    width: 110%;
+    overflow: hidden;
+    height: 155px;
+    margin-bottom: 15px;
+}
+  .best-product-img img:hover{
+    transform: scale(1.1);
   }
 
   /* ---------------dropdown menu style here----------- */
@@ -301,6 +311,7 @@
   .dr-blog {
     height: 60px;
     width: 250px;
+    background: #F7F7F7;
   }
   .dropdown-menu li:hover {
     background: #F7941D;
@@ -379,4 +390,58 @@
 }
 .shop-now-btn:hover{
   background: #F7941D;
+}
+
+/* ------------------------add banner section style here------------------ */
+
+
+.add-banner-section {
+  padding: 30px 25px;
+}
+.add-banner-single-box-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.add-banner-single-box {
+  padding: 98px 30px;
+  width: 500px;
+  height: 290px;
+  background: url(image/mini-banner1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.for-background1{
+  background: url(image/mini-banner2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.for-background2{
+  background: url(image/mini-banner3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.add-banner-single-box h3 {
+  font-size: 22px;
+  margin: 10px 0px;
+  color: #333333;
+}
+.add-banner-single-box span{
+  color: #F7941D;
+  font-size: 14px;
+}
+.add-banner-btn {
+  background: none;
+  border: none;
+  font-size: 12px;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 3px;
+}
+.add-banner-btn:hover{
+  color: #F7941D;
+  border-bottom: 2px solid #F7941D;
 }
