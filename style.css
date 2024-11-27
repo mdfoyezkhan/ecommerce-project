@@ -429,19 +429,213 @@
   font-size: 22px;
   margin: 10px 0px;
   color: #333333;
+  font-weight: 800;
+}
+.discount{
+  font-size: 22px !important;
+  font-weight: 800 !important;
 }
 .add-banner-single-box span{
   color: #F7941D;
   font-size: 14px;
+  font-weight: 500;
 }
 .add-banner-btn {
   background: none;
   border: none;
   font-size: 12px;
-  border-bottom: 1px solid #333333;
+  border-bottom: 2px solid #333;
   padding-bottom: 3px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #333;
 }
 .add-banner-btn:hover{
   color: #F7941D;
   border-bottom: 2px solid #F7941D;
 }
+
+/* -------------------------trending items section style here------------------------ */
+
+
+.trending-items-section {
+  padding: 5% 15%;
+}
+.trending-items-wrapper {
+  width: 100%;
+  text-align: center;
+}
+.trending-items-wrapper h2 {
+  color: #2C2D3F;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.trending-items-wrapper h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #F7941D;
+  display: block;
+  margin: 10px auto;
+}
+.trending-items-menu-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+  width: 100%;
+}
+.trending-items-menu-wrapper li{
+  list-style: none;
+}
+.trending-items-menu-wrapper a {
+  text-decoration: none;
+  padding: 10px;
+  color: #2C2D3F;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  transition: .5s;
+}
+.trending-items-menu-wrapper a:hover {
+  background: #F7941D;
+  color: #FFFFFF;
+}
+.active43 > a{
+  background: #F7941D;
+  color:#F7F7F7;
+}
+
+/* -----------------------trending product box style here------------------------- */
+
+
+.trending-product-box-wrapper {
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  gap: 20px;
+}
+.trending-single-product {
+  width: 250px;
+  overflow: hidden;
+  margin: 0px 0px 30px 0px;
+}
+.product-img-box {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+.product-img-box img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+  transition: .5s;
+}
+.product-img-box img:hover{
+  transform: scale(1.2);
+}
+.t-product-icon-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  width: 100%;
+  position: absolute;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  bottom: -50;
+  transition: .5s;
+  background: white;
+}
+
+.trending-product-img-and-icon-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.trending-product-img-and-icon-wrapper:hover .t-product-icon-wrapper{
+  transform: scaleY(1);
+  bottom: 0;
+  
+}
+.trending-single-product p {
+  text-align: left;
+  line-height: 30px;
+  margin-top: 10px;
+  color: #333333;
+}
+.trending-single-product p span{
+  transition: .5s;
+}
+.trending-single-product p span:hover{
+  color: #F7941D;
+}
+.t-p-main-icon {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: #333333;
+}
+
+
+.after-content::before {
+  content: "NEW";
+  width: 50px;
+  background: #8f8f8a;
+  height: 10px;
+  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 68%;
+  top: 20px;
+  color: white;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 17px;
+}
+.after-content2::before {
+  content: "30% OFF";
+  width: 50px;
+  background: #F7941D;
+  height: 10px;
+  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 68%;
+  top: 20px;
+  color: white;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 17px;
+}
+.after-content3::before {
+  content: "HOT";
+  width: 50px;
+  background: #dc3545;
+  height: 10px;
+  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 68%;
+  top: 20px;
+  color: white;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 17px;
+}
+
+
