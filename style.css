@@ -638,4 +638,229 @@
   border-radius: 17px;
 }
 
+/* ---------------------free lite versoin section style here---------------------- */
 
+
+.free-lite-version-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+  background: #F7941D;
+}
+.fl-version-wrapper {
+  text-align: center;
+}
+.fl-version-wrapper p {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px auto;
+  line-height: 24px;
+}
+.fl-version-wrapper h2 {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.purchase-btn {
+  padding: 17px 30px;
+  margin-top: 20px;
+  border: none;
+  background: #FFFFFF;
+}
+.purchase-btn a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+.fl-version-wrapper h2::after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background: #FFFFFF;
+  margin: 10px auto;
+  display: block;
+
+}
+
+/* ------------------------on sale best selle top viewed section style here------------------------ */
+
+
+.sale-best-seller-top-viewed-section {
+  padding: 5% 12%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sale-best-seller-top-viewed-box-wrapper {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.header-wrapper h1 {
+  color: #2C2D3F;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 20px 0;
+  text-transform: capitalize;
+}
+.header-wrapper h1::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #F7941D;
+  display: block;
+  margin-top: 10px;
+}
+.ssv-single-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #00000014;
+}
+.ssv-img-wrapper {
+  width: 50%;
+  height: 179px;
+  /*! overflow: hidden; */
+  position: relative;
+}
+.ssv-img-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.img-hover-effect {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #9F9FA266;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+}
+.img-hover-effect:hover{
+  opacity: 1;
+}
+.img-hover-effect:hover i{
+  transform: scale(1);
+}
+.ssv-text-wrapper h4 {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 25px;
+  padding: 10px 0px;
+  transition: .5s;
+}
+.ssv-text-wrapper h4:hover{
+  color: #F7941D;
+}
+.ssv-text-wrapper p {
+  width: 50px;
+  background: #F7941D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 30px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 20px;
+}
+.img-hover-effect i {
+  padding: 16px;
+  background: #F87617;
+  border-radius: 50%;
+  color: white;
+  transform: scale(0);
+  transition: .5s;
+}
+
+/* ------------------------from our blog section style here----------------------- */
+
+
+.from-our-blog-section {
+  text-align: center;
+  margin-top: 50px;
+  padding: 0px 12%;
+}
+.from-our-blog-section h1 {
+  padding: 25px;
+  color: #2C2D3F;
+  font-size: 30px;
+  font-weight: 700;
+}
+.from-our-blog-section h1::after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background: #F7941D;
+  display: block;
+  margin: 10px auto;
+}
+.from-our-blog-single-box-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.from-blog-single-box {
+  width: 364px;
+  margin-bottom: 100px;
+}
+.from-blog-single-box:hover .our-blog-text{
+  box-shadow: 0px 10px 15px aliceblue;
+}
+.our-blog-img {
+  width: 100%;
+  overflow: hidden;
+  height: 300px;
+}
+.our-blog-img img {
+  width: 100%;
+  height: 100%;
+}
+.our-blog-text {
+  padding: 20px 0px 40px 0px;
+  text-align: center;
+}
+.our-blog-text p {
+  color: #B7B7B7;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px;
+}
+.our-blog-text a {
+  text-decoration: none;
+  color: #424646;
+  font-size: 14px;
+  font-weight: 400;
+  transition: .5s;
+  line-height: 40px;
+}
+.our-blog-text a:hover {
+  color: #F7941D !important;
+}
+.blog-text-headline {
+  font-size: 19px !important;
+  font-weight: 600 !important;
+  margin: 20px !important;
+  color: #333 !important;
+  transition: .5s !important;
+}
+.blog-text-headline:hover{
+  color: #F7941D;
+}
