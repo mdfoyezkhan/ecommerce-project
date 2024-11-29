@@ -903,3 +903,55 @@
   font-size: 14px;
   font-weight: 400;
 }
+
+/* ---------------------------------news letter section style start here------------------------ */
+
+
+.news-letter-section {
+  text-align: center;
+  padding: 100px;
+}
+.news-letter-section h4 {
+  font-size: 17px;
+  color: #333333;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.news-letter-section p {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 12px;
+  color: #777777;
+}
+.news-letter-search-box {
+  margin: 20px auto;
+  width: 600px;
+  position: relative;
+}
+.news-letter-search-box input {
+  width: 420px;
+  padding: 18px 30px;
+  color: #2D2D2D;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 40px 0px 0px 40px;
+  border: 1px solid #00000024;
+}
+.news-subscribe-btn {
+  padding: 19px 32px;
+  text-transform: uppercase;
+  margin-left: -4px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFF;
+  background: #F7941D;
+  border: none;
+  border-radius: 0px 40px 40px 0px;
+  transition: .5s;
+}
+.news-subscribe-btn:hover {
+  background: #222222;
+}
+.news-letter-section p span {
+  color: #F7941D;
+}
