@@ -864,3 +864,42 @@
 .blog-text-headline:hover{
   color: #F7941D;
 }
+
+/* -------------------------------our shop service section style start here-------------------- */
+
+
+.our-shop-service-section {
+  padding: 50px 13%;
+  background: #F6F7FB;
+}
+.shop-service-box-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.our-service-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.service-icon {
+  padding: 10px;
+}
+.service-icon i {
+  font-size: 32px;
+  color: #333333;
+}
+.service-text h4 {
+  font-size: 14px;
+  color: #333333;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.service-text p {
+  color: #898989;
+  font-size: 14px;
+  font-weight: 400;
+}
