@@ -9,6 +9,20 @@
     box-sizing: border-box;
     font-family: "Roboto", serif;
 }
+body::before {
+  content: "get pro";
+  width: 55px;
+  background: #F7941D;
+  display: block;
+  left: 95%;
+  top: 200px;
+  padding: 13px 20px;
+  text-transform: capitalize;
+  color: #fff;
+  border-radius: 5px 0px 0px 5px;
+  position: fixed;
+  font-weight: 400;
+}
 
 /* top bar style start here */
 
@@ -954,4 +968,101 @@
 }
 .news-letter-section p span {
   color: #F7941D;
+}
+
+/* -------------------------footer section style start here------------------------ */
+
+
+.footer-section {
+  padding: 80px 10% 10px 10%;
+  background: #222;
+}
+.footer-section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 75px;
+  padding-bottom: 90px;
+  border-bottom: 1px solid #8c868657;
+}
+
+.footer-box {
+  width: 460px;
+}
+.footer-box img {
+  padding-bottom: 30px;
+}
+.footer-box p {
+  width: 411px;
+  color: #FFF;
+  padding-bottom: 10px;
+}
+.footer-box span {
+  font-size: 20px;
+  color: #F7941D;
+  font-weight: 600;
+}
+
+
+
+.footer-box-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.for-margin {
+  margin-bottom: 30px;
+}
+.footer-list-box {
+  list-style-type: none;
+  width: 240px;
+}
+.footer-list-box h4 {
+  font-size: 17px;
+  font-weight: 600;
+  padding: 0px 0px 20px 0px;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+.footer-list-box li {
+  margin: 15px 0px;
+  color: #FFFFFF;
+}
+.footer-list-box li:hover a {
+  padding-left: 10px;
+  color: #F7941D;
+}
+.footer-list-box li a {
+  text-decoration: none;
+  transition: .5s;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.footer-icon-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 132px;
+}
+.footer-icon-wrapper i:hover {
+  color: #F7941D;
+}
+.footer-icon-wrapper i {
+  transition: .5s;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* -----------------------copy write box style here--------------------- */
+.copy-write-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0px 10px 0px;
+}
+.copy-write-box p {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+}
+.copy-write-box p a{
+  color: #FFFFFF;
 }
